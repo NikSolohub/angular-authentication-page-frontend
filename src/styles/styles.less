@@ -32,24 +32,33 @@ body {
 .section.main {
   .margin0a;
   .flex;
-  justify-items: center;
+  flex-direction: column;
+  align-items: center;
   z-index: 0;
-  max-width: 40em; // ! TODO
+  width: fit-content; // ! TODO
   min-height: 200px;
   background-color: @WHITE;
   top: 5em;
 }
 
 .section.main .container {
+  .absolute;
   left: 0;
-  right: 0;
+  top: 0;
   margin: 0 auto;
-  position: absolute;
+  padding: 1em 0;
   background-color: @WHITE;
   width: 30em; // ! TODO
   z-index: 1;
+
+  .title {
+    .block;
+    font-size: 1.5em;
+    text-align: center;
+  }
 }
 
 .section.main .container.active {
+  .relative;
   z-index: 2;
 }
