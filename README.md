@@ -1,4 +1,30 @@
-# AngularAuthenticationPageFrontend
+# PROJECT CONTRIBUTING
+
+1. [Branches](#branch_naming)
+2. [Commits](#commits)
+3. [Angular docs](#angular-readme)
+
+## <a name="branch_naming"></a> Branch naming
+
+    **Feature branch** : feature/<name>
+    **Fix branch** : fix/<name> or hfix/name
+
+## <a name="commits"></a> Commits
+
+    **Commits** need to be small enough.
+
+    Commit prefixes:
+
+    Feat - new feature was created
+    WIP - 'work in progress' commit for unfinished task/feature.
+    Add - sources were added
+    Upd - sources were updated
+    Fix - source/feature bug was fixed at development
+    Hfix - source/feature bug was fixed at product
+    Refactor - a code change that neither fixes a bug nor adds a feature
+    Docs - documentation only changes
+
+# <a name="angular-readme"></a> Angular README
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
 
