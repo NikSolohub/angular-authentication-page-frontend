@@ -13,12 +13,14 @@
 
     input {
       .block;
-      width: 21em;
+      width: 12.5em;
       height: 1em;
-      padding: 0.5em;
-      border: 1px solid @GREY_A;
+      padding: 0.2em;
+      border: none;
+      border-bottom: 1px solid @GREY_A;
       border-radius: none;
       margin-left: auto;
+      font-size: 1em;
     }
   }
 
@@ -28,12 +30,14 @@
     margin: 1em auto 0 auto;
     color: @WHITE;
     outline: none;
-    border: 1px solid @GREY_A;
-    padding: 0.4em 2.4em;
+    border: none;
+    padding: 0.3em 2.4em;
     font-size: 0.8em;
+    background-color: @GREEN_A;
+    transition: background-color 0.2s ease;
 
-    &.login {
-      background-color: @GREEN_A;
+    &:active {
+      background-color: @GREEN_B;
     }
   }
 }

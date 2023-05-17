@@ -38,16 +38,27 @@ body {
   width: fit-content; // ! TODO
   min-height: 200px;
   background-color: @WHITE;
-  top: 5em;
+  top: 10em;
 
   .controls {
     .block;
+    .absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
 
     .button {
       .inline;
+      .pointer;
       padding: 0.2em 1em;
       margin: 0.5em;
-      border: 1px solid @GREY_B;
+      background-color: @WHITE;
+      transition: background-color 0.5s ease;
+
+      &:hover {
+        color: #ffffff;
+        background-color: @ORANGE;
+      }
     }
   }
 }
@@ -57,7 +68,7 @@ body {
   left: 0;
   top: 0;
   margin: 0 auto;
-  padding: 1em 2em 0 2em;
+  padding: 1em 2em 2em 2em;
   background-color: @WHITE;
   width: fit-content;
   z-index: 1;
