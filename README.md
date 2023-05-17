@@ -6,12 +6,12 @@
 
 ## <a name="branch_naming"></a> Branch naming
 
-    **Feature branch** : feature/<name>
-    **Fix branch** : fix/<name> or hfix/name
+    Feature branch : feature/<name>
+    Fix branch : fix/<name> or hfix/name
 
 ## <a name="commits"></a> Commits
 
-    **Commits** need to be small enough.
+    Commits need to be small enough.
 
     Commit prefixes:
 
