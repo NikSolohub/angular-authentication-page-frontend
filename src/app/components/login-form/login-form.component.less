@@ -1,19 +1,29 @@
 @import "common";
 
 :host {
+  .block;
+  width: 20em;
+
   label {
-    .block;
+    .flex;
+    margin: 0.5em;
+    align-items: center;
 
     input {
+      .block;
+      width: 16em;
+      height: 1em;
+      padding: 0.4em;
       border: 1px solid @GREY_A;
       border-radius: none;
+      margin-left: auto;
     }
   }
 
   .submit {
     .block;
     .pointer;
-
+    .margin0a;
     color: @WHITE;
     outline: none;
     border: 1px solid @GREY_A;
