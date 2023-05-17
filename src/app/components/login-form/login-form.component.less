@@ -1,0 +1,26 @@
+@import "common";
+
+:host {
+  label {
+    .block;
+
+    input {
+      border: 1px solid @GREY_A;
+      border-radius: none;
+    }
+  }
+
+  .submit {
+    .block;
+    .pointer;
+
+    color: @WHITE;
+    outline: none;
+    border: 1px solid @GREY_A;
+    padding: 0.2em 0.5em;
+
+    &.login {
+      background-color: @GREEN_A;
+    }
+  }
+}
