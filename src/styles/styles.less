@@ -30,16 +30,24 @@ body {
 }
 
 .section.main {
+  .margin0a;
+  .flex;
+  justify-items: center;
   z-index: 0;
-  width: 1100px;
+  max-width: 40em; // ! TODO
   min-height: 200px;
   background-color: @WHITE;
+  top: 5em;
 }
 
 .section.main .container {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   position: absolute;
-  z-index: 1;
   background-color: @WHITE;
+  width: 30em; // ! TODO
+  z-index: 1;
 }
 
 .section.main .container.active {
